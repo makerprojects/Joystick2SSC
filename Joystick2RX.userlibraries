@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="jinput">
+    <archive path="C:/Users/Gego/IdeaProjects/Joystick2RX/lib/jinput/jinput.jar" />
+    <archive path="C:/Users/Gego/IdeaProjects/Joystick2RX/lib/jinput/jinput-test.jar" />
+  </library>
+  <library name="rxtx">
+    <archive path="C:/Users/Gego/IdeaProjects/Joystick2RX/lib/rxtx/RXTXcomm.jar" />
+  </library>
+</eclipse-userlibraries>
+

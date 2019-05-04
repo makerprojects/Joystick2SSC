@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Joystick2SSC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Joystick2SSC</output-path>
+    <root id="root">
+      <element id="archive" name="Joystick2SSC.jar">
+        <element id="module-output" name="Joystick2SSC" />
+      </element>
+      <element id="library" level="project" name="jinput" />
+      <element id="library" level="project" name="rxtx" />
+      <element id="directory" name="lib">
+        <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/start.x86.bat" />
+      <element id="file-copy" path="$PROJECT_DIR$/start.x64.bat" />
+    </root>
+  </artifact>
+</component>

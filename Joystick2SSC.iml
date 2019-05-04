@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/lib/jinput/jinput.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/rxtx/RXTXcomm.jar!/" />
+    <src_description expected_position="2">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="2" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="library" exported="" name="jinput.jar" level="project" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jinput" level="project" />
+    <orderEntry type="library" name="rxtx" level="project" />
+    <orderEntry type="module-library">
+      <library name="jinput.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jinput/jinput.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="RXTXcomm.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/rxtx/RXTXcomm.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Documents/Joystick2/Java Libraries/RXTX/Souce Code/rxtx_2_1_7r2_java8_tar/rxtx_2_1_7r2_java8_tar~/rxtx-2.1-7r2-Java8" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
