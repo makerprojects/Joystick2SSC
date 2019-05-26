@@ -268,7 +268,8 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
                         System.out.println("Port, "  + com.getName() + ", is in use."); }
                     catch (Exception e) {
                         System.err.println("Failed to open port " +  com.getName());
-                        e.printStackTrace(); }
+                        e.printStackTrace();
+                    }
             }
         }
 

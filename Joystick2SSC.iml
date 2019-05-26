@@ -16,8 +16,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="library" exported="" name="jinput.jar" level="project" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="jinput" level="project" />
-    <orderEntry type="library" name="rxtx" level="project" />
     <orderEntry type="module-library">
       <library name="jinput.jar">
         <CLASSES>
@@ -38,5 +36,7 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="net.java.jinput:jinput:2.0.9" level="project" />
+    <orderEntry type="library" name="RXTXcomm" level="project" />
   </component>
 </module>

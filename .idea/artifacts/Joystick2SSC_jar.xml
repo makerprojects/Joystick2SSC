@@ -5,13 +5,23 @@
       <element id="archive" name="Joystick2SSC.jar">
         <element id="module-output" name="Joystick2SSC" />
       </element>
-      <element id="library" level="project" name="jinput" />
-      <element id="library" level="project" name="rxtx" />
       <element id="directory" name="lib">
-        <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+        <element id="directory" name="rxtx">
+          <element id="directory" name="win_x86">
+            <element id="dir-copy" path="$PROJECT_DIR$/lib/rxtx/win_x86" />
+          </element>
+          <element id="directory" name="win_x64">
+            <element id="dir-copy" path="$PROJECT_DIR$/lib/rxtx/win_x64" />
+          </element>
+        </element>
+        <element id="directory" name="jinput">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib/jinput" />
+        </element>
       </element>
-      <element id="file-copy" path="$PROJECT_DIR$/start.x86.bat" />
-      <element id="file-copy" path="$PROJECT_DIR$/start.x64.bat" />
+      <element id="library" level="project" name="net.java.jinput:jinput:2.0.9" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/rxtx/start.x64.bat" />
+      <element id="file-copy" path="$PROJECT_DIR$/lib/rxtx/start.x86.bat" />
+      <element id="library" level="project" name="RXTXcomm" />
     </root>
   </artifact>
 </component>
