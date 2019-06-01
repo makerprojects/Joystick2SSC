@@ -1,7 +1,9 @@
 package main.usb2ppm;
 
-import gnu.io.SerialPort;
-// import jssc.*;
+// import gnu.io.SerialPort;
+
+import com.fazecast.jSerialComm.*;
+
 import main.GUI.controller.ComponentConfig;
 import main.usb2ppm.event.DataSentEvent;
 import net.java.games.input.Component;
@@ -148,7 +150,8 @@ public class Usb2PPMWorker implements Runnable {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            serialPort.close();
+            // serialPort.close();
+            serialPort.closePort();
         }
     }
 

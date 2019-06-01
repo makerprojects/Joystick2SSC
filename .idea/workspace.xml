@@ -7,153 +7,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_java_jinput_jinput_2_0_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fazecast_jSerialComm_2_5_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jinput.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/rxtx.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Joystick2SSC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Joystick2SSC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jinput/jinput-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jinput/jinput.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/BuildProperties.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/Install.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/ReleaseNotes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/BuildProperties.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/Install.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortEnumerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortIdentifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortOwnershipListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$I2CInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$I2COutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$ParallelInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$ParallelOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/NoSuchPortException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/PortInUseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$RS485InputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$RS485OutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485Port.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485PortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485PortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXCommDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$SerialInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$SerialOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$RawInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$RawOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/UnSupportedLoggerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/UnsupportedCommOperationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/RXTXcomm/gnu/io/Zystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/ReleaseNotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/start.x64.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x64.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/start.x86.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x86.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/rxtxParallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/rxtxSerial.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/rxtxParallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/rxtxSerial.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/jinput-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/jinput.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-test.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/BuildProperties.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/Install.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/ReleaseNotes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/BuildProperties.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/Install.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortEnumerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortIdentifier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/CommPortOwnershipListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Configure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$I2CInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$I2COutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/I2CPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$ParallelInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort$ParallelOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/LPRPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/NoSuchPortException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/ParallelPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/PortInUseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$RS485InputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485$RS485OutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485Port.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485PortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RS485PortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXCommDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$SerialInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort$SerialOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RXTXVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$MonitorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$RawInputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw$RawOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Raw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/RawPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPortEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/SerialPortEventListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/UnSupportedLoggerException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/UnsupportedCommOperationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/RXTXcomm/gnu/io/Zystem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/ReleaseNotes.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/RXTXcomm.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/rxtxParallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/rxtxSerial.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/rxtxParallel.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/rxtxSerial.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x64.bat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x64.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x86.bat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x86.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.x64.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.x86.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -163,82 +46,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="178" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rxtx/start.x64.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/rxtx/start.x86.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="259" column="6" lean-forward="true" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4930">
-              <caret line="291" selection-start-line="291" selection-end-line="291" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -249,6 +64,11 @@
       <find>ServoBar</find>
       <find>servoBars</find>
       <find>System.out</find>
+      <find>gnu.</find>
+      <find>CommPortIdentifier</find>
+      <find>CommPort</find>
+      <find>actionPerformed</find>
+      <find>connect</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,8 +82,10 @@
         <option value="$PROJECT_DIR$/src/main/GUI/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" />
+        <option value="$PROJECT_DIR$/lib/jserial/start.x64.bat" />
+        <option value="$PROJECT_DIR$/lib/jserial/start.x86.bat" />
+        <option value="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" />
       </list>
     </option>
   </component>
@@ -285,7 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -319,6 +141,12 @@
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
               <item name="bin" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,34 +163,66 @@
             <path>
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rxtx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rxtx" type="462c0819:PsiDirectoryNode" />
-              <item name="win_x64" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rxtx" type="462c0819:PsiDirectoryNode" />
-              <item name="win_x86" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rxtx" type="462c0819:PsiDirectoryNode" />
-              <item name="RXTXcomm.jar" type="ab9368bb:PsiFileNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jinput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jserial" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jserial" type="462c0819:PsiDirectoryNode" />
+              <item name="win_x64" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jserial" type="462c0819:PsiDirectoryNode" />
+              <item name="win_x86" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
@@ -374,6 +234,13 @@
               <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
@@ -392,11 +259,37 @@
               <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Windows" type="462c0819:PsiDirectoryNode" />
+              <item name="x86" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -405,7 +298,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jserial/win_x86" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -413,12 +306,14 @@
     <property name="settings.editor.splitter.proportion" value="0.24758221" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx\win_x86" />
       <recent name="C:\Users\Gego\EclipseProjects\Joystick2SSC\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -496,7 +391,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27836612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,7 +399,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -522,6 +417,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
@@ -557,19 +453,49 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>253</line>
-          <properties class="main.GUI.DeviceConfigPanel" method="getAvailableSerialPorts">
+          <line>256</line>
+          <properties class="main.GUI.DeviceConfigPanel" method="actionPerformed">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
+          <line>258</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
+          <line>341</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Joystick2SSC$Main.ic" NAME="Main Coverage Results" MODIFIED="1559236798067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -581,13 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -630,21 +549,50 @@
     <entry file="file://$PROJECT_DIR$/Joystick2SSC.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rxtx/start.x64.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/rxtx/start.x86.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="jar://$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar!/gnu/io/CommPortIdentifier.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="1870">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar!/gnu/io/RXTXCommDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialNativeInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2329">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPortList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPortEventListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
@@ -654,29 +602,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4930">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        <state relative-caret-position="3434">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jserial/start.x86.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/jserial/start.x64.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_fazecast_jSerialComm_2_5_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="94" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="94" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fazecast/jSerialComm/2.5.1/jSerialComm-2.5.1.jar!/com/fazecast/jSerialComm/SerialPort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+          <folding>
+            <element signature="e#9241#9242#0" expanded="true" />
+            <element signature="e#9277#9278#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="259" column="6" lean-forward="true" selection-start-line="259" selection-start-column="6" selection-end-line="259" selection-end-column="6" />
+        <state relative-caret-position="5419">
+          <caret line="357" column="54" selection-start-line="357" selection-start-column="54" selection-end-line="357" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -746,7 +745,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>RXTXcomm</last-edited>
+          <last-edited>net.java.jinput:jinput:2.0.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

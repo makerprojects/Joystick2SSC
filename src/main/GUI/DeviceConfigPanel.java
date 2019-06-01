@@ -1,10 +1,12 @@
 package main.GUI;
 
-import gnu.io.CommPort;
-import gnu.io.CommPortIdentifier;
-import gnu.io.PortInUseException;
-import gnu.io.SerialPort;
-/* import jssc.*; */
+// import gnu.io.CommPort;
+// import gnu.io.CommPortIdentifier;
+// import gnu.io.PortInUseException;
+// import gnu.io.SerialPort;
+// import jssc.*;
+import com.fazecast.jSerialComm.*;
+
 import main.GUI.controller.ComponentConfig;
 import main.GlobalProperties;
 import main.usb2ppm.ServoParameter;
@@ -58,9 +60,9 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
         //v2.setVisible(false);
         v2.addActionListener(this);
         comBox = new JComboBox();
-        HashSet<CommPortIdentifier> set = getAvailableSerialPorts();
-        for (CommPortIdentifier port: set)
-            comBox.addItem(port.getName());
+        SerialPort[] comPort = SerialPort.getCommPorts();
+        for (int i = 0; i < comPort.length; i++)
+            comBox.addItem(comPort[i].getSystemPortName());
         if (comBox.getItemCount() > 0) {
             String selCom = (String)comBox.getSelectedItem();
             selCom = GlobalProperties.getProperties().getProperty("COM",selCom);
@@ -251,6 +253,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
     /**
      * @return    A HashSet containing the CommPortIdentifier for all serial ports that are not currently being used.
      */
+    /*
     public static HashSet<CommPortIdentifier> getAvailableSerialPorts() {
         HashSet<CommPortIdentifier> h = new HashSet<CommPortIdentifier>();
         Enumeration thePorts = CommPortIdentifier.getPortIdentifiers();
@@ -275,7 +278,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
 
         return h;
     }
-
+     */
     public void actionPerformed(ActionEvent e) {
          if (e.getSource() == connect) {
             if (connect.getText().equals(CONNECT)) {
@@ -336,23 +339,24 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
 
     private void connect ( String portName ) throws Exception
     {
-        CommPortIdentifier portIdentifier = CommPortIdentifier.getPortIdentifier(portName);
-        if ( portIdentifier.isCurrentlyOwned() )
+        SerialPort serialPort = SerialPort.getCommPort(portName);
+        if ( serialPort.isOpen() )
             throw new Exception("Port is currently in use");
         else {
             for (JProgressBar progressBar: servoBars)
                 progressBar.setValue(0);
-            CommPort commPort = portIdentifier.open(this.getClass().getName(),2000);
-            SerialPort serialPort = (SerialPort) commPort;
-            serialPort.setSerialPortParams(9600,SerialPort.DATABITS_8,SerialPort.STOPBITS_1,SerialPort.PARITY_NONE);
-            worker = new Usb2PPMWorker(serialPort, serialPort.getOutputStream(), v2.isSelected());
-            worker.addListener(this);
-            updateMapping();
-            updateParametersMap();
-            workingThread = new Thread(worker);
-            workingThread.start();
-
-
+            serialPort.openPort(2000);
+            if ( serialPort.isOpen()) {
+                serialPort.setComPortParameters(9600, 8, 1, 0);
+                worker = new Usb2PPMWorker(serialPort, serialPort.getOutputStream(), v2.isSelected());
+                worker.addListener(this);
+                updateMapping();
+                updateParametersMap();
+                workingThread = new Thread(worker);
+                workingThread.start();
+            } else {
+                throw new Exception("Cannot open port " + portName + "!");
+            }
         }
     }
 
