@@ -14,30 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
-    <orderEntry type="library" exported="" name="jinput.jar" level="project" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
-      <library name="jinput.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jinput/jinput.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="RXTXcomm.jar">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/rxtx/RXTXcomm.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$USER_HOME$/Documents/Joystick2/Java Libraries/RXTX/Souce Code/rxtx_2_1_7r2_java8_tar/rxtx_2_1_7r2_java8_tar~/rxtx-2.1-7r2-Java8" />
-        </SOURCES>
-      </library>
-    </orderEntry>
     <orderEntry type="library" name="net.java.jinput:jinput:2.0.9" level="project" />
-    <orderEntry type="library" name="RXTXcomm" level="project" />
     <orderEntry type="library" name="com.fazecast:jSerialComm:2.5.1" level="project" />
   </component>
 </module>

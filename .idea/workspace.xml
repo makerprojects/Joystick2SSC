@@ -7,39 +7,68 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fazecast_jSerialComm_2_5_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Joystick2RX.eml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Joystick2RX.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Joystick2RX.userlibraries" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Joystick2SSC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Joystick2SSC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/AssignDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/AssignDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AnalogAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AnalogAxisPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AxisPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$ControllerWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$ControllerWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalAxisPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalHatPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalHatPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/SignalConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/SignalConfigPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/AnalogAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/AnalogAxisPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ButtonPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ButtonPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/POVComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/POVComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/POVPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/POVPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$TabButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$TabButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GlobalProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GlobalProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/controller/ControllerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/controller/ControllerUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/ServoParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/ServoParameter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/start.x64.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x64.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/start.x86.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x86.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/rxtxParallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x64/rxtxSerial.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/rxtxParallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/rxtx/win_x86/rxtxSerial.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/RXTXcomm.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/rxtxParallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x64/rxtxSerial.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/rxtxParallel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/rxtx/win_x86/rxtxSerial.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x64.bat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x64.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x86.bat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x86.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/AssignDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/AssignDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/ControllerReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ControllerReadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/ControllerTextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ControllerTextTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/SignalConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/SignalConfigPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/AnalogAxisPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/AnalogAxisPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ButtonPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/POVComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/POVComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/POVPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/POVPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/tabs/ButtonTabComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/tabs/ButtonTabComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GlobalProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GlobalProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/controller/ControllerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/ControllerUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/ServoParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/ServoParameter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/event/DataSentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/event/DataSentEvent.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +80,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -74,21 +100,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/artifacts/Joystick2RX_jar.xml" />
-        <option value="$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/GUI/MainFrame.java" />
-        <option value="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" />
-        <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" />
-        <option value="$PROJECT_DIR$/lib/jserial/start.x64.bat" />
-        <option value="$PROJECT_DIR$/lib/jserial/start.x86.bat" />
-        <option value="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -101,219 +112,31 @@
     <option name="width" value="1280" />
     <option name="height" value="700" />
   </component>
+  <component name="ProjectId" id="1P9oFLFwroNzMgEd3LkOCOkfbej" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jinput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jinput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jserial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jserial" type="462c0819:PsiDirectoryNode" />
-              <item name="win_x64" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jserial" type="462c0819:PsiDirectoryNode" />
-              <item name="win_x86" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="GUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Joystick2SSC" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Joystick2SSC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="com.fazecast:jSerialComm:2.5.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="jSerialComm-2.5.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="Windows" type="462c0819:PsiDirectoryNode" />
-              <item name="x86" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jserial/win_x86" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
     <property name="settings.editor.splitter.proportion" value="0.24758221" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
-      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx\win_x86" />
-      <recent name="C:\Users\Gego\EclipseProjects\Joystick2SSC\.idea" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC" />
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx\win_x86" />
+      <recent name="C:\Users\Gego\EclipseProjects\Joystick2SSC\.idea" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,72 +211,23 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27836612" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>256</line>
+          <line>269</line>
           <properties class="main.GUI.DeviceConfigPanel" method="actionPerformed">
             <option name="EMULATED" value="true" />
           </properties>
@@ -461,32 +235,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>258</line>
-          <properties />
+          <line>271</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>62</line>
-          <properties />
+          <line>75</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>77</line>
-          <properties />
+          <line>90</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>64</line>
-          <properties />
+          <line>77</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>341</line>
-          <properties />
+          <line>354</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -494,267 +263,5 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Joystick2SSC$Main.ic" NAME="Main Coverage Results" MODIFIED="1559236798067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/usb2ppm/ServoParameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GlobalProperties.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="113" column="45" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Joystick2RX.eml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Joystick2RX.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Joystick2RX.userlibraries">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Joystick2SSC.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar!/gnu/io/CommPortIdentifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/rxtx/RXTXcomm.jar!/gnu/io/RXTXCommDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1649">
-          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialNativeInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPortList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/everit/osgi/bundles/org.everit.osgi.bundles.org.scream3r.jssc/2.8.0/org.everit.osgi.bundles.org.scream3r.jssc-2.8.0.jar!/jssc/SerialPortEventListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jserial/start.x86.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/jserial/start.x64.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_fazecast_jSerialComm_2_5_1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="94" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/Joystick2SSC_jar.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/fazecast/jSerialComm/2.5.1/jSerialComm-2.5.1.jar!/com/fazecast/jSerialComm/SerialPort.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-          <folding>
-            <element signature="e#9241#9242#0" expanded="true" />
-            <element signature="e#9277#9278#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5419">
-          <caret line="357" column="54" selection-start-line="357" selection-start-column="54" selection-end-line="357" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>Joystick2SSC:jar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8.0_201</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Joystick2SSC</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>net.java.jinput:jinput:2.0.9</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
