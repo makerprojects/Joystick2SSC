@@ -6,68 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="Cleaning up build environment (Version 1.1.1)">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Joystick2RX.eml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Joystick2RX.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Joystick2RX.userlibraries" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Joystick2SSC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Joystick2SSC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/AssignDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/AssignDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AnalogAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AnalogAxisPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$AxisPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$ControllerWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$ControllerWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalAxisPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalHatPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest$DigitalHatPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ControllerReadTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/MainFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/SignalConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/SignalConfigPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/AnalogAxisPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/AnalogAxisPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ButtonPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ButtonPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ControllerPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/POVComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/POVComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/POVPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/POVPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$TabButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent$TabButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/tabs/ButtonTabComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/GlobalProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GlobalProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/controller/ControllerUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/controller/ControllerUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/ServoParameter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/ServoParameter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/Joystick2SSC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/AssignDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/AssignDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/ControllerReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ControllerReadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/ControllerTextTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ControllerTextTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ReadAllEvents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/SignalConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/SignalConfigPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/AnalogAxisPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/AnalogAxisPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ButtonPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ControllerPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/POVComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/POVComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/POVPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/POVPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/event/ControllerAddListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GUI/tabs/ButtonTabComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/tabs/ButtonTabComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GlobalProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GlobalProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/controller/ControllerUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/controller/ControllerUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/ServoParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/ServoParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/event/DataSentEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/event/DataSentEvent.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,10 +68,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
     <property name="settings.editor.splitter.proportion" value="0.24758221" />
   </component>
   <component name="RecentsManager">
@@ -216,11 +163,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cleaning up build environment (Version 1.1.1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up build environment (Version 1.1.1)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
