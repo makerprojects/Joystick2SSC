@@ -6,28 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JoystickRC_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jserial/start.x64.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x64.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jserial/start.x86.bat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/jserial/start.x86.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/jSerialComm-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/jinput-2.0.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-dx8-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-dx8.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-dx8_64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-raw-64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-raw.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-raw_64.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/jinput-wintab.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/libjinput-linux.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/libjinput-linux64.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jinput/libjinput-osx.jnilib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jserial/win_x64/jSerialComm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/lib/jserial/win_x86/jSerialComm.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x64.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/start.x86.bat" beforeDir="false" />
-    </list>
+    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565532008111</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)">
+      <created>1566505176853</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566505176853</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
