@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Joystick2SSC.iml" filepath="$PROJECT_DIR$/Joystick2SSC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JoystickRC.iml" filepath="$PROJECT_DIR$/JoystickRC.iml" />
     </modules>
   </component>
 </project>

@@ -1,1 +1,0 @@
-java -Djava.library.path=lib/jinput;lib/jserial/win_x86 -jar Joystick2SSC.jar

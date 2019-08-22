@@ -1,8 +1,8 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="Joystick2SSC:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/Joystick2SSC</output-path>
+  <artifact build-on-make="true" name="JoystickRC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JoystickRC</output-path>
     <root id="root">
-      <element id="archive" name="Joystick2SSC.jar">
+      <element id="archive" name="JoystickRC.jar">
         <element id="module-output" name="JoystickRC" />
       </element>
       <element id="directory" name="lib">
