@@ -6,15 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="Cleaning up build environment (Version 1.1.1)">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)">
+      <change afterPath="$PROJECT_DIR$/src/main/udpServer/udp2SSCWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/udpServer/udpServer4SSC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Joystick2SSC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Joystick2SSC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/Joystick2SSC.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,23 +34,12 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>found</find>
-      <find>WARNING:</find>
-      <find>sendValues</find>
-      <find>updateServoBar</find>
-      <find>ServoBar</find>
-      <find>servoBars</find>
-      <find>System.out</find>
-      <find>gnu.</find>
-      <find>CommPortIdentifier</find>
-      <find>CommPort</find>
-      <find>actionPerformed</find>
-      <find>connect</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -54,11 +49,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="20" />
-    <option name="width" value="1280" />
-    <option name="height" value="700" />
-  </component>
   <component name="ProjectId" id="1P9oFLFwroNzMgEd3LkOCOkfbej" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -67,23 +57,27 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/udpServer" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="settings.editor.splitter.proportion" value="0.24758221" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
-      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\X260\IdeaProjects\Joystick2SSC\src\main\udpServer" />
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC" />
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
       <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx\win_x86" />
       <recent name="C:\Users\Gego\EclipseProjects\Joystick2SSC\.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.udpServer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\jserial" />
+      <recent name="C:\Users\Gego\IdeaProjects\Joystick2SSC\lib\rxtx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,6 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556293614652</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cleaning up build environment (Version 1.1.1)">
+      <created>1565532008111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565532008111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,43 +175,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cleaning up build environment (Version 1.1.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up build environment (Version 1.1.1)" />
+    <MESSAGE value="Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>269</line>
-          <properties class="main.GUI.DeviceConfigPanel" method="actionPerformed">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>271</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>90</line>
+          <line>96</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>77</line>
-          <option name="timeStamp" value="6" />
+          <line>351</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>354</line>
-          <option name="timeStamp" value="7" />
+          <line>307</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

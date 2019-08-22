@@ -4,6 +4,8 @@ import com.fazecast.jSerialComm.*;
 
 import main.GUI.controller.ComponentConfig;
 import main.GlobalProperties;
+import main.udpServer.udp2SSCWorker;
+import main.udpServer.udpServer4SSC;
 import main.usb2ppm.ServoParameter;
 import main.usb2ppm.Usb2PPMWorker;
 import main.usb2ppm.event.DataSentEvent;
@@ -25,6 +27,7 @@ import java.util.*;
  *     Copyright (C) 2011  Alexandr Vorobiev
  *
  *     Implemented new interface jserialComm
+ *     Added wLAN connect
  *     Copyright (C) 2019  Gregor Schlechtriem
  *
  *     This program is free software: you can redistribute it and/or modify
@@ -48,6 +51,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
     private final JComboBox comBox;
     // private final JPanel deviceConfigPanel = new JPanel(new GridBagLayout());
     private final JPanel portSettingPanel = new JPanel(new GridBagLayout());
+    private final JPanel wLANconnectingPanel = new JPanel(new GridBagLayout());
     private final JPanel servoOutputPanel = new JPanel(new GridBagLayout());
     private final JComboBox channelsBox = new JComboBox(new Integer[]{1,2,3,4,5,6,7,8});
     private final JProgressBar[] servoBars = new JProgressBar[SERVO_COUNT];
@@ -57,6 +61,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
     private final JRadioButton v2 = new JRadioButton("HP PiKoder");
     private final JComboBox modeBox = new JComboBox(new String[]{"Negative PPM (Futaba,Hitec,Esky,JR)","Positive PPM"});
     private final JButton connect = new JButton(CONNECT);
+    private final JButton wLANconnect = new JButton(CONNECT);
     //private Map<Integer, net.java.games.input.Component> =
 
 
@@ -64,6 +69,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
 
     private Thread workingThread;
     private Usb2PPMWorker worker;
+    private udp2SSCWorker udpWorker;
     private static HashMap<ComponentConfig, Integer> assignMap = new HashMap<ComponentConfig, Integer>();
     private static DeviceConfigPanel INSTANCE  = new DeviceConfigPanel();
 
@@ -144,9 +150,18 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
             worker.setParameterMap(servoParameterMap());
     }
 
+    public void wLANupdateMapping() {
+        if (udpWorker!= null)
+            udpWorker.setMapping(getAssignMap());
+    }
+
+    public void wLANupdateParametersMap() {
+        if (udpWorker!= null)
+            udpWorker.setParameterMap(servoParameterMap());
+    }
 
     private void createLayout() {
-    	portSettingPanel.setBorder(new TitledBorder("Port Setting"));
+    	portSettingPanel.setBorder(new TitledBorder("USB | Bluetooth"));
         GridBagConstraints gbc = new GridBagConstraints();
 		gbc.anchor = GridBagConstraints.WEST;
 		gbc.weightx = 1;
@@ -156,39 +171,20 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
         portSettingPanel.add(comBox, gbc);
         gbc.gridx = 0;
         gbc.gridwidth = 1;
-        portSettingPanel.add(v2, gbc);  // bring back on after implementation of HP interface
-        gbc.gridx = 1;
-        gbc.gridwidth = 1;
-        portSettingPanel.add(connect, gbc);
-        connect.addActionListener(this); 
-    	
-    	/* old code incl. "Device Configuration
-    	deviceConfigPanel.setBorder(new TitledBorder("Device Configuration"));
-        GridBagConstraints gbc = new GridBagConstraints();
-		gbc.anchor = GridBagConstraints.WEST;
-
-		gbc.weightx = 1;
-		gbc.fill = GridBagConstraints.HORIZONTAL;
-		gbc.insets.set(5, 5, 5, 5);
-        gbc.gridwidth = 2;
-        deviceConfigPanel.add(channelsBox, gbc);
-        deviceConfigPanel.add(setModeBtn, gbc);
-        gbc.gridx = 0;
-        gbc.gridwidth = GridBagConstraints.REMAINDER;
-        deviceConfigPanel.add(modeBox, gbc);
-
-        portSettingPanel.setBorder(new TitledBorder("Port Setting"));
-
-        gbc.gridx = 0;
-        gbc.gridwidth = 2;
-        portSettingPanel.add(comBox, gbc);
-        gbc.gridx = 0;
-        gbc.gridwidth = 1;
         portSettingPanel.add(v2, gbc);
         gbc.gridx = 1;
         gbc.gridwidth = 1;
         portSettingPanel.add(connect, gbc);
-        connect.addActionListener(this); */
+        connect.addActionListener(this);
+
+        wLANconnectingPanel.setBorder(new TitledBorder("WLAN"));
+        gbc.anchor = GridBagConstraints.WEST;
+        gbc.weightx = 1;
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.insets.set(10, 10, 10, 10);
+        gbc.gridwidth = 2;
+        wLANconnectingPanel.add(wLANconnect, gbc);
+        wLANconnect.addActionListener(this);
 
         servoOutputPanel.setBorder(new TitledBorder("Servo Outputs"));
         gbc.anchor = GridBagConstraints.WEST;
@@ -208,17 +204,17 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
             servoInv[j] = new JRadioButton("inv");
             servoInv[j].addActionListener(this);
             servoInv[j].setSelected(false);
-            Boolean value = Boolean.valueOf(GlobalProperties.getProperties().getProperty("INV"+j, Boolean.toString(servoInv[j].isSelected()) ));
+            boolean value = Boolean.parseBoolean(GlobalProperties.getProperties().getProperty("INV" + j, Boolean.toString(servoInv[j].isSelected())));
             servoInv[j].setSelected(value);
             GlobalProperties.getProperties().setProperty("INV"+j, Boolean.toString(servoInv[j].isSelected()));
             servoTrim[j] = new JScrollBar(JScrollBar.HORIZONTAL, 0, 0, -100, 100);
             servoTrim[j].addAdjustmentListener(this);
-            Integer ivalue = Integer.valueOf(GlobalProperties.getProperties().getProperty("TRIM"+j, Integer.toString(servoTrim[j].getValue()) ));
+            int ivalue = Integer.parseInt(GlobalProperties.getProperties().getProperty("TRIM" + j, Integer.toString(servoTrim[j].getValue())));
             servoTrim[j].setValue(ivalue);
             GlobalProperties.getProperties().setProperty("TRIM"+j, Integer.toString(servoTrim[j].getValue()) );
             servoEPA[j] = new JScrollBar(JScrollBar.HORIZONTAL, 100, 0, 50, 150);
             servoEPA[j].addAdjustmentListener(this);
-            ivalue = Integer.valueOf(GlobalProperties.getProperties().getProperty("EPA"+j, Integer.toString(servoEPA[j].getValue()) ));
+            ivalue = Integer.parseInt(GlobalProperties.getProperties().getProperty("EPA" + j, Integer.toString(servoEPA[j].getValue())));
             servoEPA[j].setValue(ivalue);
             GlobalProperties.getProperties().setProperty("EPA"+j, Integer.toString(servoEPA[j].getValue()) );
             gbc.gridx = 0;
@@ -254,6 +250,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
 
         // leftPanel.add(deviceConfigPanel,gbc);
         leftPanel.add(portSettingPanel,gbc);
+        leftPanel.add(wLANconnectingPanel,gbc);
         gbc.weighty = 100;
         gbc.fill = GridBagConstraints.BOTH;
         gbc.gridheight = GridBagConstraints.REMAINDER;
@@ -261,39 +258,8 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
         add(servoOutputPanel, BorderLayout.CENTER);
     }
 
-
-
-    /**
-     * @return    A HashSet containing the CommPortIdentifier for all serial ports that are not currently being used.
-     */
-    /*
-    public static HashSet<CommPortIdentifier> getAvailableSerialPorts() {
-        HashSet<CommPortIdentifier> h = new HashSet<CommPortIdentifier>();
-        Enumeration thePorts = CommPortIdentifier.getPortIdentifiers();
-        while (thePorts.hasMoreElements()) {
-            CommPortIdentifier com = (CommPortIdentifier) thePorts.nextElement();
-            System.out.println ("Found Port " + com.getName() + " processing..." );
-            switch (com.getPortType()) {
-                case CommPortIdentifier.PORT_SERIAL:
-                    try {
-                        CommPort thePort = com.open("CommUtil", 50);
-                        thePort.close();
-                        h.add(com);
-                    }
-                    catch (PortInUseException e) {
-                        System.out.println("Port, "  + com.getName() + ", is in use."); }
-                    catch (Exception e) {
-                        System.err.println("Failed to open port " +  com.getName());
-                        e.printStackTrace();
-                    }
-            }
-        }
-
-        return h;
-    }
-     */
     public void actionPerformed(ActionEvent e) {
-         if (e.getSource() == connect) {
+        if (e.getSource() == connect) {
             if (connect.getText().equals(CONNECT)) {
                 //connect
                 try {
@@ -317,6 +283,38 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
                 worker =null;
                 //disconnect
                 connect.setText(CONNECT);
+            }
+        } else if (e.getSource() == wLANconnect) {
+            if (wLANconnect.getText().equals(CONNECT)) {
+                udpServer4SSC myUdpServer = new udpServer4SSC();
+                //connect
+                try {
+                    myUdpServer.connect2wLAN();
+                } catch (Exception e1) {
+                    JOptionPane.showMessageDialog(this,
+                    e1.getMessage(), "Error!", JOptionPane.WARNING_MESSAGE);
+                    return;
+                }
+                wLANconnect.setText(DISCONNECT);
+                for (JProgressBar progressBar: servoBars)
+                    progressBar.setValue(0);
+                udpWorker = new udp2SSCWorker();
+                udpWorker.addListener(this);
+                wLANupdateMapping();
+                wLANupdateParametersMap();
+                workingThread = new Thread(udpWorker);
+                workingThread.start();
+            } else {
+                workingThread.interrupt();
+                try {
+                    workingThread.join();
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+                workingThread = null;
+                udpWorker = null;
+                //disconnect
+                wLANconnect.setText(CONNECT);
             }
         } else if (e.getSource() == setModeBtn) {
             if (connect.getText().equals(CONNECT)) {
@@ -345,8 +343,7 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
              if (worker != null)
                  worker.setV2(v2.isSelected());
          } else {
-             updateParametersMap();
-             updateProperties();
+             adjustmentValueChanged();
          }
     }
 
@@ -404,8 +401,20 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
     }
 
     public void adjustmentValueChanged(AdjustmentEvent e) {
-        updateParametersMap();
+        if (worker != null) {
+            updateParametersMap();
+        } else if (udpWorker != null) {
+            wLANupdateParametersMap();
+        }
         updateProperties();
+    }
 
+    public void adjustmentValueChanged() {
+        if (worker != null) {
+            updateParametersMap();
+        } else if (udpWorker != null) {
+            wLANupdateParametersMap();
+        }
+        updateProperties();
     }
 }

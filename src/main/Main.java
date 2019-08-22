@@ -32,12 +32,16 @@ import java.lang.reflect.InvocationTargetException;
  */
 
 public class Main {
-    private static final String VERSION = "1.1.1";
+    private static final String VERSION = "1.0";
+    public final class Debug {
+        // set false to allow compiler to identify and eliminate unreachable code
+        public static final boolean ON = true;
+    }
     public static void main(String[] args) throws InvocationTargetException, InterruptedException {
 
         GlobalProperties.loadProperties();
         final MainFrame frame = MainFrame.getInstance();
-        frame.setTitle("Joystick2SSC v"+VERSION);
+        frame.setTitle("JoystickRC v"+VERSION);
         frame.addWindowListener( new WindowListener() {
             public void windowOpened(WindowEvent e) {
                 //To change body of implemented methods use File | Settings | File Templates.
