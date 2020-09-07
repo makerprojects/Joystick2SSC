@@ -32,7 +32,7 @@ import java.lang.reflect.InvocationTargetException;
  */
 
 public class Main {
-    private static final String VERSION = "1.0";
+    private static final String VERSION = "1.1";
     public final class Debug {
         // set false to allow compiler to identify and eliminate unreachable code
         public static final boolean ON = true;

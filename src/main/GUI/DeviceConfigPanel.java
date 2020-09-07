@@ -18,6 +18,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.AdjustmentEvent;
 import java.awt.event.AdjustmentListener;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *     This file is part of joystick-to-ppm, a port of Flytron's Compufly
@@ -74,14 +76,29 @@ public class DeviceConfigPanel extends JPanel implements ActionListener, DataSen
     private static DeviceConfigPanel INSTANCE  = new DeviceConfigPanel();
 
     protected DeviceConfigPanel() {
+        final Pattern lastIntPattern;
+        lastIntPattern = Pattern.compile("[^0-9]+([0-9]+)$");
+        int ComRefTab[] = new int[256];
+        for (int i = 0; i < ComRefTab.length; i++)
+            ComRefTab[i] = 256;
         setModeBtn.addActionListener(this);
         v2.setSelected(Boolean.parseBoolean(GlobalProperties.getProperties().getProperty("V2",Boolean.toString(false))));
         //v2.setVisible(false);
         v2.addActionListener(this);
         comBox = new JComboBox();
         SerialPort[] comPort = SerialPort.getCommPorts();
-        for (int i = 0; i < comPort.length; i++)
-            comBox.addItem(comPort[i].getSystemPortName());
+        for (int i = 0; i < comPort.length; i++) {
+            Matcher matcher = lastIntPattern.matcher(comPort[i].getSystemPortName());
+            if (matcher.find()) {
+                String someNumberStr = matcher.group(1);
+                ComRefTab[Integer.parseInt(someNumberStr)] = i;
+            }
+        }
+        for (int i = 0; i < ComRefTab.length; i++) {
+            if (ComRefTab[i] != 256) {
+                comBox.addItem(comPort[ComRefTab[i]].getSystemPortName());
+            }
+        }
         if (comBox.getItemCount() > 0) {
             String selCom = (String)comBox.getSelectedItem();
             selCom = GlobalProperties.getProperties().getProperty("COM",selCom);
