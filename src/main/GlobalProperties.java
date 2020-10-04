@@ -14,7 +14,7 @@ import java.util.Properties;
  *     Copyright (C) 2011  Alexandr Vorobiev
  *
  *     Implemented new interface jserialComm and SSC command interface
- *     Copyright (C) 2019  Gregor Schlechtriem
+ *     Copyright (C) 2019-2020  Gregor Schlechtriem
  *
  *     This program is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -54,6 +54,29 @@ public class GlobalProperties {
                         return null;
                     }
                     return v;
+                }
+            }
+        }
+        return null;
+    }
+
+    public static String checkChannelCharacteristicForComponent(ComponentConfig componentConfig) {
+        Integer v;
+        String s;
+        try {
+            v = Integer.valueOf(properties.getProperty("DC","0"));
+        } catch (Exception e) {
+            return null;
+        }
+        for (int i = 1; i <= v; i++) {
+            if (properties.containsKey("DEVICE" + i) && properties.containsKey("CHARACTERISTIC" + i)) {
+                if (componentConfig.toString().equals(properties.getProperty("DEVICE" + i))) {
+                    try {
+                        s = properties.getProperty("CHARACTERISTIC" + i,"Button");
+                    } catch (Exception e) {
+                        return null;
+                    }
+                    return s;
                 }
             }
         }

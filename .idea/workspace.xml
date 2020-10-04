@@ -11,6 +11,26 @@
   <component name="ChangeListManager">
     <list default="true" id="e8a70bd3-ac4a-4ecc-96c2-28b8b32312ad" name="Default Changelist" comment="squash! Added udp communication and changed name in main window to JoystickRC 1.0 (preparing renaming of repo)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/ButtonAssignDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/DeviceConfigPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GUI/controller/ComponentConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/GlobalProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/GlobalProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main$Debug.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main$Debug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/udpServer/udp2SSCWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/udpServer/udp2SSCWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/udpServer/udpServer4SSC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/udpServer/udpServer4SSC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/usb2ppm/Usb2PPMWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Joystick2SSC/Joystick2SSC.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JoystickRC/JoystickRC.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JoystickRC/JoystickRC.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JoystickRC/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JoystickRC/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/ButtonAssignDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GUI/controller/ComponentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GlobalProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GlobalProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/udpServer/udp2SSCWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/udpServer/udp2SSCWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/usb2ppm/Usb2PPMWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,23 +203,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598724742000" />
+    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1601808904058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601808904058" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>96</line>
+          <line>101</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>351</line>
+          <line>392</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/GUI/DeviceConfigPanel.java</url>
-          <line>307</line>
+          <line>349</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

@@ -31,6 +31,9 @@ public class ComponentConfig {
     private float minValue = -1.0f;
     private int sentValue = 50;
     private int prevValue = 512;
+    private String characteristics = "Button";
+    private boolean switchState = false;
+    private boolean switchWas0 = true;
 
     public int getPrevValue() {
         return prevValue;
@@ -91,6 +94,30 @@ public class ComponentConfig {
         if (v < minValue)
             minValue = v;
 
+    }
+
+    public String getCharacteristics() {
+        return characteristics;
+    }
+
+    public void setCharacteristics(String s) {
+        characteristics = s;
+    }
+
+    public boolean getSwitchState () {
+        return switchState;
+    }
+
+    public void setSwitchState (boolean b) {
+        switchState = b;
+    }
+
+    public boolean getSwitchWas0 () {
+        return switchWas0;
+    }
+
+    public void setSwitchWas0 (boolean b) {
+        switchWas0 = b;
     }
 
     @Override

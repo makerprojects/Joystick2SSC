@@ -3,6 +3,7 @@ package main.usb2ppm;
 import com.fazecast.jSerialComm.*;
 
 import main.GUI.controller.ComponentConfig;
+import main.Main;
 import main.usb2ppm.event.DataSentEvent;
 import net.java.games.input.Component;
 
@@ -19,8 +20,8 @@ import java.util.Vector;
  *     The source was obtained from code.google.com/p/joystick-to-ppm
  *     Copyright (C) 2011  Alexandr Vorobiev
  *
- *     Implemented new interface jserialComm and SSC command interface
- *     Copyright (C) 2019  Gregor Schlechtriem
+ *     Implemented new interface jSerialComm and SSC command interface
+ *     Copyright (C) 2019 -2020 Gregor Schlechtriem
  *
  *     This program is free software: you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -148,10 +149,21 @@ public class Usb2PPMWorker implements Runnable {
                                     entry.getKey().setPrevValue(data);
                                     servo(channel, data, 0, 1024, parameterMap.get(entry.getValue()).isReverse(), parameterMap.get(entry.getValue()).getTrim(), parameterMap.get(entry.getValue()).getEpa());
                                 } else {
-                                    if (fdata == 0.0f){
+                                    if ((fdata == 0.0f) && ((entry.getKey().getCharacteristics() == "Button") || ((!entry.getKey().getSwitchState()) && (entry.getKey().getCharacteristics() == "Switch")))) { servo(channel, 0, 0, 100, parameterMap.get(entry.getValue()).isReverse(), parameterMap.get(entry.getValue()).getTrim(), parameterMap.get(entry.getValue()).getEpa());
                                         servo(channel, 0, 0, 100, parameterMap.get(entry.getValue()).isReverse(), parameterMap.get(entry.getValue()).getTrim(), parameterMap.get(entry.getValue()).getEpa());
-                                    } else if (fdata == 1.0f) {
-                                        servo(channel, entry.getKey().getSentValue(), 0, 100, parameterMap.get(entry.getValue()).isReverse(), parameterMap.get(entry.getValue()).getTrim(), parameterMap.get(entry.getValue()).getEpa());
+                                        entry.getKey().setSwitchWas0(true);
+                                    } else if ((fdata == 1.0f) || (entry.getKey().getCharacteristics() == "Switch")) {
+                                        if ((entry.getKey().getCharacteristics() == "Switch") && (fdata == 1.0f)) {  // button is pushed
+                                            if ((!entry.getKey().getSwitchState()) && (entry.getKey().getSwitchWas0())) {
+                                                entry.getKey().setSwitchState(true);
+                                            } else if (entry.getKey().getSwitchWas0()) {
+                                                entry.getKey().setSwitchState(false);
+                                            }
+                                            entry.getKey().setSwitchWas0(false);
+                                        } else entry.getKey().setSwitchWas0(true);
+                                        if (entry.getKey().getSwitchState() || (fdata == 1.0f)) {
+                                            servo(channel, entry.getKey().getSentValue(), 0, 100, parameterMap.get(entry.getValue()).isReverse(), parameterMap.get(entry.getValue()).getTrim(), parameterMap.get(entry.getValue()).getEpa());
+                                        }
                                     }
                                 }
 
@@ -192,7 +204,10 @@ public class Usb2PPMWorker implements Runnable {
     }
 
     private void servo( int channel, float value, float min, float max, boolean inverse, int trim, int epa) throws IOException {
-        System.out.println("send cmd ch="+channel +" min/max/val="+ String.format("%.1f",min)+ String.format("%.1f",max) +"/"+String.format("%.1f",value) + " trim="+trim + " epa="+epa);
+
+        if (Main.Debug.ON) {
+            System.out.println("send cmd ch=" + channel + " min/max/val=" + String.format("%.1f", min) + String.format("%.1f", max) + "/" + String.format("%.1f", value) + " trim=" + trim + " epa=" + epa);
+        }
         /* max = max - min;
            value =value - min; */
         int data = (int)Math.floor(1000.0f*(value - min) / (max - min));  // pulse width would be 1 - 2 ms eq. a range 1000 µs
@@ -226,7 +241,7 @@ public class Usb2PPMWorker implements Runnable {
         String cmd = Integer.toString(channel) + "=" + LeadingZero + Integer.toString(value);
         byte[] b = cmd.getBytes();
         out.write(b);
-        System.out.println("send cmd: " + cmd);
+        if (Main.Debug.ON) System.out.println("send cmd: " + cmd);
         out.flush();
     }
 
